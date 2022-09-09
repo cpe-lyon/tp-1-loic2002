@@ -1,5 +1,11 @@
 ﻿MOREL Loïc
 
+#<p style="text-align: center;"> TP1 - Linux Ubuntu</p>
+Installation d’Ubuntu Server et prise en main du shell - CPE Lyon - 4ETI, 3IRC & 3ICS - Année 2022/2023 Administration Système
+
+##Exercice 2
+###Manuel
+
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.001.png)
 
 1) La commande which permet de localiser le binaire d'une commande
@@ -8,6 +14,8 @@
 1) La première page de la section 6 concerne les jeux, économiseurs d’écran, gadgets...
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.002.png)
+
+###Navigation
 
 
 
@@ -43,6 +51,8 @@
 11) Il faut utiliser la command rm -r
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.013.png)
+
+###Commandes importantes
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.014.png)
 
