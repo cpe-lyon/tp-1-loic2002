@@ -1,10 +1,10 @@
 ﻿MOREL Loïc
 
-#<p style="text-align: center;"> TP1 - Linux Ubuntu</p>
+# <p style="text-align: center;"> TP1 - Linux Ubuntu</p>
 Installation d’Ubuntu Server et prise en main du shell - CPE Lyon - 4ETI, 3IRC & 3ICS - Année 2022/2023 Administration Système
 
-##Exercice 2
-###Manuel
+## Exercice 2
+### Manuel
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.001.png)
 
@@ -15,14 +15,7 @@ Installation d’Ubuntu Server et prise en main du shell - CPE Lyon - 4ETI, 3IRC
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.002.png)
 
-###Navigation
-
-
-
-
-
-
-
+### Navigation
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.003.png)
 
@@ -38,10 +31,9 @@ Installation d’Ubuntu Server et prise en main du shell - CPE Lyon - 4ETI, 3IRC
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.009.png)
 
-8) On ne peut pas supprimer le dossier 
+8) On ne peut pas supprimer le dossier
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.010.png)
-
 
 9) On utilise la command rm –d pour supprimer un dossier
 
@@ -52,7 +44,7 @@ Installation d’Ubuntu Server et prise en main du shell - CPE Lyon - 4ETI, 3IRC
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.013.png)
 
-###Commandes importantes
+### Commandes importantes
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.014.png)
 
@@ -69,12 +61,6 @@ La commande time permet de savoir en combien de temps la commande c’est exécu
 3) La commande « ls » ce situe dans /usr/bin/ls
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.017.png)
-
-
-
-
-
-
 
 4) Cette commande n’est pas dans le man car c’est un alias, Ajoute la possibilité de voir les permissions
 
@@ -108,100 +94,56 @@ Si on supprime le ficher original cela n’a pas d’importance pour le fichier 
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.024.png)
 
-
-
-
-
-
-
-
-
 13) Le deux fichier sont synchroniser si on modifier un des deux fichiers l’autre est aussi modifier, si on supprime le fichier le lien symbolique ne fonctionne plus
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.025.png)
 
 14) La commande est « tail –F /var/log/syslog », pour arrêter « ctl+s » pour reprendre « ctl+q »
 
+
+15)
 Il faut utiliser la commande « head –Nx /var/log/syslog » permet d’afficher x première ligne du fichier
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.026.png)
 
+Il faut utiliser la commande « tail –nX /var/log/syslog » permet d’afficher x dernière ligne du fichier
+
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.027.png)
 
-Il faut utiliser la commande « tail –Nx /var/log/syslog » permet d’afficher x dernière ligne du fichier
-15) 
+Pour afficher seulement les lignes 10 à 20.
+
+
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.028.png)
 
 16) La commande « dmesg | less » permet d’afficher page par page
-
-
-
-
-
-
-
-
-
-
-
-
 
 17) Le dossier « /etc/passwd » permet de voir les utilisateurs, leur id et leur id group et où se situe son répertoire personnel et le chemin absolu du shell
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.029.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-18) On utilise la command « awk –F ‘ :’ ‘{print $1}’ /etc/passwd | sort –r » 
+18) On utilise la command « awk –F ‘ :’ ‘{print $1}’ /etc/passwd | sort –r »
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.030.png)
 
 19) La commande « wc » permet de savoir le nombre de ligne dans un fichier![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.031.png)
-20) 
+20)
+
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.032.png)
-
-
-
-
-
-
-
-
-
-
-
-
 
 21) La commande qui permet de trouvée tous les fichiers se nommant passwd présents sur la machine est « find / -name « passwd »
 
-![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.033.png)
-
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.050.png)
 
-22) A
+22)
+
+![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.033.png)
 23) La commande locate ne returne rien
 
-![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.034.png)A
+![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.034.png)
 
 24) Le fichier n’apparait pas
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.035.png)
 
+
+###Exercice 3
