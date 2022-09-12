@@ -3,7 +3,7 @@
 # <p style="text-align: center;"> TP1 - Linux Ubuntu</p>
 Installation d’Ubuntu Server et prise en main du shell - CPE Lyon - 4ETI, 3IRC & 3ICS - Année 2022/2023 Administration Système
 
-## Exercice 2
+## Exercice 2 Prise en main de l’interpréteur de commandes
 ### Manuel
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.001.png)
@@ -138,13 +138,44 @@ Pour afficher seulement les lignes 10 à 20.
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.033.png)
 
-23) La commande locate trouve ou se situe le fichier
+23) 
 
-![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.034.png)
+![](./image/Capture-d’écran-2022-09-12-203947.png)
 
-24) Le fichier n’apparait pas
+24) La commande locate trouve ou se situe le fichier
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.035.png)
 
 
-###Exercice 3
+###Exercice 3 Découverte de l’éditeur de texte nano
+
+1)
+![](./image/Annotation-2022-09-12-091818.png)
+
+2) Il faut utiliser la combinaison de touche Alt+\ puis indiquer la mot a remplacer et ensuite le mot a mettre
+![](./image/Annotation-2022-09-12-092122.png)
+
+3) Pour deplacer les lignes on fait shift + up / down pour les selectionner
+Puis CTRL + k pour couper
+Puis CTRL + u pour coller
+
+4) On annule avec alt + u
+
+5) Ctrl + x pour quitter et 'y' pour enregistrer
+
+###Exercice  4. Personnalisation du shell
+
+![](./image/Annotation-2022-09-12-095040.png)
+![](./image/Annotation-2022-09-12-095050.png)
+
+
+1)
+![](./image/Annotation-2022-09-12-094625.png)
+2)
+![](./image/Annotation-2022-09-12-095000.png)
+3)
+![](./image/Annotation-2022-09-12-095644.png)
+
+4)
+![](./image/Annotation-2022-09-12-101344.png)
+![](./image/Annotation-2022-09-12-101330.png)
