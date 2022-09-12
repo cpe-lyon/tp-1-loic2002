@@ -137,7 +137,8 @@ Pour afficher seulement les lignes 10 à 20.
 22)
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.033.png)
-23) La commande locate ne returne rien
+
+23) La commande locate trouve ou se situe le fichier
 
 ![](./image/Aspose.Words.e3d5cc18-ac28-4f0b-b9c8-be250add7ed4.034.png)
 
